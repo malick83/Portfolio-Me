@@ -280,15 +280,10 @@ nav .logo img {
         /* border: 3px solid red; */
         box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
         border-radius: 10px;
+        padding: 20px 0px;
+
     }
 
-    section  .une-formation {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        /* border: 3px solid blue; */
-        height: 110px;
-    }
     section .header-formation {
         display: flex;
         flex-direction: row;
@@ -296,25 +291,35 @@ nav .logo img {
         /* border: 3px solid rebeccapurple; */
     }
 
-    section .footer-formation {
-        /* border: 3px solid greenyellow; */
-    }
-
     section .status-formation{
         /* border: 3px solid blueviolet; */
-        width: 70px;
-        height: 70px;
-        border-radius: 40px;
+        width: 80px;
+        height: 80px;
+        border-radius: 45px;
         background-color: #147AD8;
         margin-right: 15px;
     }
     section .status-formation h5{
         color: white;
-        margin: 26px 6px;
+        margin: 35px 12px;
     }
     section .nom-formation p {
+        /* border: 3px solid rebeccapurple; */
         color: #147AD8;
         font-weight: bold;
+        margin-top: 8px;
+
+    }
+
+    section .nom-formation h4 {
+        /* border: 3px solid rosybrown; */
+        margin-top: -12px;
+        color: #1479d8bc;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 12px;
+        margin-left: -20px;
+        margin-top: 10px;
 
     }
     section .nom-formation {
@@ -323,15 +328,27 @@ nav .logo img {
         width: 200px;
         margin-left: 15px;
     }
-    section .footer-formation{
-        position: absolute;
-        color: #147AD8;
-        font-weight: bold;
-        font-style: italic;
-        margin-left: 115px;
-        margin-top: 60px;
 
+
+    .nom-formation-master1 p {
+        /* border: 3px solid black; */
+        margin-top: 3px;
     }
 
+    .nom-formation-master1 h3 {
+        /* border: 3px solid magenta; */
+        margin-top: -15px;
+        font-size: 12.5px;
+        color: #147AD8;
+    }
+    .status-formation-master {
+        margin-top: 20px;
+    }
+
+
+    .status-formation-licence h5 {
+        width: 52px;
+        /* border: 2px solid red; */
+    } 
 
 }
