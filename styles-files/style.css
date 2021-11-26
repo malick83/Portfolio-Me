@@ -350,5 +350,73 @@ nav .logo img {
         width: 52px;
         /* border: 2px solid red; */
     } 
+    .mes-competences {
+        /* border: 3px solid red; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+        padding: 20px 0px;
+    }
+
+    .une-competence {
+        /* border: 3px solid greenyellow; */
+        margin-left: 20px;
+        color: #147AD8;
+        font-weight: bold;
+    }
+    .une-competence ul li {
+        list-style-image: url('picturesCss/checked.png');
+    }
+
+    .langage-programmation {
+        /* border: 3px solid greenyellow; */
+        margin-left: 20px;
+        color: #147AD8;
+        font-weight: bold;
+    }
+
+    .langage-programmation .mes-progressions {
+        /* border: 3px solid hotpink; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    .langage-programmation .nom-langage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        line-height: 30px;
+    }
+
+    .langage-programmation .progression {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .langage-programmation .progression progress {
+        height: 22px;
+    }
+
+    .langage-programmation .pourcentage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+    section .status-experience {
+        /* border: 3px solid blueviolet; */
+        width: 80px;
+        height: 80px;
+        border-radius: 45px;
+        background-color: #147AD8;
+        margin-right: 15px;
+    }
+    section .status-experience h5{
+        color: white;
+        margin: 35px 23px;
+    }
 
 }
