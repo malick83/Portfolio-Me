@@ -539,7 +539,7 @@
     footer {
         background-color: #147AD8;
         position: relative;
-        height: 300px;
+        height: 539px;
     }
 
     footer .haut-footer img {
@@ -583,6 +583,75 @@
         width: 80%;
         margin: 180px auto;
     }
+
+
+
+    footer .middle-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid rgba(0, 0, 0, 0.25); */
+        width: 60%;
+        margin: auto;
+        margin-top: 85px;
+    }
+
+    footer .middle-footer ul {
+        list-style: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    footer .middle-footer ul label {
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .middle-footer ul li .company li {
+        margin-bottom: 15px;
+    }
+
+    .middle-footer ul li .company {
+        margin-left: -15px;
+        margin-right: 34px;
+        width: 100px;
+        margin-top: 12px;
+        
+    }
+
+    footer aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid rgb(75, 80, 77); */
+        width: 35%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    footer aside img {
+        width: 25px;
+    }
+
+    footer .bas-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid violet; */
+        width: 100%;
+        padding: 16px;
+        margin: auto;
+        color: white;
+        font-weight: bold;
+        margin-top: 60px;
+        font-size: 20px;
+        background-color: #0757A1;
+    }
+
+
+    
+
 
 
 
@@ -1116,7 +1185,7 @@
 
     footer {
         background-color: #147AD8;
-        height: 500px;
+        height: 520px;
     }
 
     footer .haut-footer img {
@@ -1154,6 +1223,65 @@
         height: 5px;
         width: 85%;
         margin: 45px auto;
+    }
+
+    footer .middle-footer {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer .middle-footer ul {
+        list-style: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    footer .middle-footer ul label {
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .middle-footer ul li .company li {
+        margin-bottom: 15px;
+    }
+
+    .middle-footer ul li .company {
+        margin-left: -15px;
+        margin-right: 34px;
+        width: 100px;
+        margin-top: 12px;
+        
+    }
+    footer aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid rgb(75, 80, 77); */
+        width: 65%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    footer aside img {
+        width: 25px;
+    }
+
+    footer .bas-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid violet; */
+        width: 92%;
+        padding: 16px;
+        margin: auto;
+        color: white;
+        font-weight: bold;
+        margin-top: 60px;
+        font-size: 9px;
+        background-color: #0757A1;
     }
 
 
