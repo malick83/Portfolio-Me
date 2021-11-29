@@ -2,9 +2,595 @@
 
 
 
-@media screen and (min-width: 950px) and (max-width: 2024px){
+@media screen and (min-width: 710px) and (max-width: 2024px){
+
+    body {
+        overflow-x: hidden;
+        font-family: 'Nunito Sans', sans-serif;
+        /* background-color: red; */
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        z-index: 3;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        /* border: 3px solid black; */
+    }
+    nav .logo img {
+        display: inline;
+        width: 2.5%;
+        margin: 15px 20px;
+    } 
+    nav .material-icons {
+        display: block;
+        font-size:50px;
+        float: right;
+        color: #147AD8;
+        margin: 4px 20px;
+    }
+    .partie-haut .contenu-haut {
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .partie-haut .contenu-bas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .partie-haut .img-accueil {
+        position: relative;
+        width: 100%;
+        height: 370px;
+    }
+    .partie-haut h1 {
+        position: absolute;
+        width: 20%;
+        margin: auto 12%;
+        top: 70px;
+        left: 30%;
+        right: 30%;
+        color: #147AD8;
+        /* border: 3px solid black; */
+    }
+    .partie-haut p {
+        position: absolute;
+        line-height: 35px;
+        top: 102px;
+        width: 35%;
+        margin-top: 30px;
+        margin-left: 35%;
+        margin-right: 35%;
+        /* left: 15%; */
+        color: white;
+        font-weight: bold;
+        font-size: 230%;
+        /* border: 3px solid crimson; */
+    }
+
+    .partie-haut .img-profil {
+        position: absolute;
+        top: 250px;
+        left: 25%;
+    }
+
+    .partie-haut ul {
+        position: absolute;
+        list-style-type: none;
+        top: 219px;
+        left: 70%;
+        line-height: 25px;
+        color:white
+
+    }
+    .partie-haut ul li {
+        font-weight: bold;
+        margin-right: 0px;
+        font-size: 19px;
+    }
+
+    .texte-profil {
+        /* border: 3px solid black; */
+        width: 55%;
+        margin: auto;
+        margin-top: 52px;
+        margin-bottom: 52px;
+        font-weight: bold;
+        font-size: 23px;
+        /* margin: 5px 35px; */
+        line-height: 30px;
+        color: #147AD8;
+
+    }
+    .mes-services {
+        /* border: 3px solid red; */
+        margin-top: 80px;
+        width: 65%;
+        margin: auto;
+    }
+
+    .mes-services .titre {
+        /* border: 3px solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        color: #147AD8;
+        font-weight: bold;
+        font-size: 26px;
+    
+    }
+
+    .mes-services .titre h2 {
+        position: relative;
+        /* border: 3px solid black; */
+        margin: auto;
+    }
+
+    .mes-services .titre h2::before {
+        content: "";
+        position: absolute;
+        background-color: #147AD8;
+        border-radius: 12px;
+        height: 5px;
+        width: 25%;
+        top: 11px;
+        left: -90px;
+    }
+
+    .mes-services .titre h2::after {
+        content: "";
+        position: absolute;
+        background-color: #147AD8;
+        border-radius: 12px;
+        height: 5px;
+        width: 25%;
+        top: 11px;
+        right: -90px;
+    }
+
+    .mes-services .titre h4 {
+        /* border: 3px solid black; */
+        margin: auto;
+    }
+
+    .card {
+        /* border: 3px solid blue; */
+    }
+
+    .first-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin:28px;
+        /* border: 3px solid green; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+    }
+    .top-card {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+
+    }
+    
+    .icon-card{
+        /* border: 3px solid red; */
+        padding: 23px 0px;
+        margin-right: 5px;
+    }
+
+    .icon-card img{
+        width: 45px;
+
+    }
+    .title-card {
+        /* border: 3px solid red; */
+        width: 55%;
+        color: #147AD8;
+        font-weight: bold;
+        font-size: 23px;
+        margin-left: 5px;
+    }
+    .description-card {
+        /* border: 3px solid red; */
+        margin: 0px 20px;
+        color: #147AD8;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 25px;
+    }
+
+    .top-card .services-hacking {
+        margin-top: 10px;
+    }
+
+    .mon-portfolio .portfolio-title h2::before{
+        width: 35%;
+        left: -107px;
+    }
+
+    .mon-portfolio .portfolio-title h2::after {
+        width: 35%;
+        right: -107px;
+    }
+
+
+
+    /* .mes-services .titre h2::before {
+        content: "";
+        position: absolute;
+        background-color: #147AD8;
+        border-radius: 12px;
+        height: 5px;
+        width: 40%;
+        top: 11px;
+        left: -90px;
+    } */
+    
+    section.mon-portfolio {
+        /* border: 3px solid red; */
+    }
+
+    section .portfolio-title {
+        /* border: 3px solid blue; */
+    }
+    section .le-portfolio {
+        /* border: 3px solid gray; */
+    }
+
+    section .le-portfolio .title-formation {
+        /* border: 3px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+    section .le-portfolio .title-formation .icon-formation {
+        /* border: 3px solid red; */
+        padding-top: 30px;
+        margin-right: 11px;
+    }
+
+    section .le-portfolio .title-formation .icon-formation img {
+        width: 30px;
+    }
+
+    section .le-portfolio .title-formation .texte-formation {
+        /* border: 3px solid black; */
+        margin-left: 11px;
+    }
+
+    section .le-portfolio .title-formation .texte-formation h2 {
+        position: relative;
+        color: #147AD8;
+    }
+
+    section .le-portfolio .title-formation .texte-formation h2::after {
+        content: "";
+        position: absolute;
+        background-color: #147AD8;
+        border-radius: 12px;
+        height: 5px;
+        width: 60%;
+        top: 42px;
+        right: 20%;
+    }
+    section .mes-formations {
+        /* border: 3px solid red; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+        padding: 20px 0px;
+
+    }
+
+    section .header-formation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* border: 3px solid rebeccapurple; */
+    }
+
+    section .status-formation{
+        /* border: 3px solid blueviolet; */
+        width: 95px;
+        height: 95px;
+        border-radius: 50px;
+        background-color: #147AD8;
+        margin-right: 15px;
+    }
+    section .status-formation h5{
+        color: white;
+        margin: 35px 2px;
+        /* border: 3px solid yellowgreen; */
+        width: 100%;
+    }
+    section .nom-formation p {
+        /* border: 3px solid rebeccapurple; */
+        color: #147AD8;
+        font-weight: bold;
+        margin-top: 8px;
+        font-size: 18px;
+        width: 100%;
+
+    }
+
+    section .nom-formation h4 {
+        /* border: 3px solid rosybrown; */
+        margin-top: -12px;
+        color: #1479d8bc;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 15px;
+        margin-left: -20px;
+        margin-top: 10px;
+
+    }
+    section .nom-formation {
+        position: relative;
+        /* border: 3px solid tomato; */
+        width: 200px;
+        margin-left: 15px;
+    }
+
+
+    .nom-formation-master1 p {
+        /* border: 3px solid black; */
+        margin-top: 3px;
+    }
+
+    .nom-formation-master1 h3 {
+        /* border: 3px solid magenta; */
+        margin-top: -15px;
+        font-size: 12.5px;
+        color: #147AD8;
+    }
+    .status-formation-master {
+        margin-top: 20px;
+    }
+
+
+    .status-formation-licence h5 {
+        width: 52px;
+        /* border: 2px solid red; */
+    } 
+    .mes-competences {
+        /* border: 3px solid red; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+        padding: 20px 0px;
+    }
+
+    .une-competence {
+        /* border: 3px solid greenyellow; */
+        margin-left: 20px;
+        color: #147AD8;
+        font-weight: bold;
+    }
+    .une-competence ul li {
+        list-style-image: url('picturesCss/checked.png');
+    }
+
+    .langage-programmation {
+        /* border: 3px solid greenyellow; */
+        margin-left: 20px;
+        color: #147AD8;
+        font-weight: bold;
+    }
+
+    .langage-programmation .mes-progressions {
+        /* border: 3px solid hotpink; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+        margin: auto;
+    }
+    .langage-programmation .nom-langage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        line-height: 30px;
+    }
+
+    .langage-programmation .progression {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .langage-programmation .progression progress {
+        height: 22px;
+    }
+
+    .langage-programmation .pourcentage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+    section .status-experience {
+        /* border: 3px solid blueviolet; */
+        width: 80px;
+        height: 80px;
+        border-radius: 45px;
+        background-color: #147AD8;
+        margin-right: 15px;
+    }
+    section .status-experience h5{
+        color: white;
+        margin: 35px 23px;
+    }
+
+    .interet {
+        /* border: 3px solid lawngreen; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+        padding: 20px 0px;
+    
+    }
+    .nom-interet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid hotpink; */
+    }
+
+    .nom-interet ul {
+        list-style: none;
+
+    }
+
+    .nom-interet-second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid navy; */
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .nom-interet-second ul {
+        list-style: none;
+        color: #147AD8;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .nom-interet-second ul li .sport {
+        margin-left: -15px;
+        margin-right: 34px;
+        width: 100px;
+        
+    }
+    .nom-interet-second ul li label {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .nom-interet-second ul li .association {
+        margin-left: -15px;
+        /* margin-right: 34px; */
+        width: 180px;
+    }
+
+    .nom-interet-second ul li .association .details {
+        font-style: italic;
+        font-size: 9.5px;
+        margin-left: -15px;
+    }
+
+    .nom-interet-second ul li .sport .details {
+        font-style: italic;
+        font-size: 9.5px;
+        margin-left: -15px;
+    }
+
+    .nous-contacter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 3px solid lawngreen; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+        padding: 20px 0px;
+        color: #147AD8;
+    }
+
+    .nous-contacter .adresse {
+        width: 27%;
+        margin: auto;
+        /* border: 3px solid cadetblue; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nous-contacter .adresse img {
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .nous-contacter .adresse .address-title {
+        margin-left: 15px;
+    }
+
+    .nous-contacter .adresse h3 {
+        font-style: italic;
+        font-size: 14px;
+        color: #1479d8a2;
+    }
+    .nous-contacter .mes-email a {
+        font-style: italic;
+        font-size: 14px;
+        color: #1479d8a2;
+    }
+
+
+    footer {
+        background-color: #147AD8;
+        position: relative;
+        height: 300px;
+    }
+
+    footer .haut-footer img {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+        margin-top: 23px;
+    } 
+    footer .haut-footer {
+        display: flex;
+        flex-direction: row;
+        /* border: 3px solid purple; */
+        width: 300px;
+        margin: auto;
+        color: #FFFFFF;
+        font-style: italic;
+        font-size: 15px;
+        margin-top: 53px;
+    }
+
+    footer p {
+        /* position: relative; */
+        color: #FFFFFF;
+        font-style: italic;
+        font-weight: bold;
+        /* border: 3px solid red; */
+        width: 300px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    footer p::after {
+        position: absolute;
+        /* border: 3px solid red; */
+        left: 25px;
+        right: 25px;
+        top: 4px;
+        content: "";
+        background-color: #FFFFFF;
+        height: 6px;
+        width: 80%;
+        margin: 180px auto;
+    }
+
+
 
 }
+
+
+/* VERSION MOBILE */
+
 
 
 @media screen and (min-width: 200px) and (max-width: 800px)
@@ -30,7 +616,7 @@
     }
     nav .logo img {
         display: inline;
-        width: 10%;
+        width: 8%;
         margin: 15px 20px;
     } 
     nav .material-icons {
@@ -80,6 +666,7 @@
         color: white;
         font-weight: bold;
         font-size: 25px;
+        /* border: 3px solid gray; */
     }
 
     .partie-haut .img-profil {
@@ -106,9 +693,13 @@
         /* border: 3px solid black; */
         font-weight: bold;
         font-size: 23px;
-        margin: 5px 35px;
+        margin: 45px 35px;
+
         line-height: 30px;
         color: #147AD8;
+
+
+        
 
     }
     .mes-services {
@@ -522,5 +1113,48 @@
         font-size: 14px;
         color: #1479d8a2;
     }
+
+    footer {
+        background-color: #147AD8;
+        height: 500px;
+    }
+
+    footer .haut-footer img {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+        margin-top: 23px;
+    } 
+    footer .haut-footer {
+        display: flex;
+        flex-direction: row;
+        /* border: 3px solid purple; */
+        width: 300px;
+        margin: auto;
+        color: #FFFFFF;
+        font-style: italic;
+        font-size: 15px;
+    }
+
+    footer p {
+        color: #FFFFFF;
+        font-style: italic;
+        font-weight: bold;
+        /* border: 3px solid red; */
+        width: 300px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    footer p::after {
+        position: absolute;
+        left: 25px;
+        content: "";
+        background-color: #FFFFFF;
+        height: 5px;
+        width: 85%;
+        margin: 45px auto;
+    }
+
 
 }
