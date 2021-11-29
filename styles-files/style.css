@@ -1,18 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 
-body {
-    margin: 0px;
-    padding: 0px;
-}
 
+@media screen and (min-width: 950px) and (max-width: 2024px){
 
-nav .material-icons {
-    display: none;
-}
-
-nav .logo img {
-    display: none;
 }
 
 
@@ -49,8 +40,17 @@ nav .logo img {
         color: #147AD8;
         margin: 4px 20px;
     }
-    .partie-haut {
+    .partie-haut .contenu-haut {
         /* border: 3px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .partie-haut .contenu-bas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .partie-haut .img-accueil {
@@ -61,7 +61,7 @@ nav .logo img {
     .partie-haut h1 {
         position: absolute;
         width: 50%;
-        margin: auto 35px;
+        margin: auto 12%;
         top: 70px;
         left: 20%;
         right: 20%;
@@ -71,25 +71,28 @@ nav .logo img {
     .partie-haut p {
         position: absolute;
         line-height: 35px;
-        top: 100px;
-        width: 265px;
-        left: 22%;
+        top: 12%;
+        /* width: 355px; */
+        margin-top: 30px;
+        margin-left: 25%;
+        margin-right: 25%;
+        /* left: 15%; */
         color: white;
         font-weight: bold;
-        font-size: 19px;
+        font-size: 25px;
     }
 
     .partie-haut .img-profil {
         position: absolute;
         top: 250px;
-        left: 23px;
+        left: 33px;
     }
 
     .partie-haut ul {
         position: absolute;
         list-style-type: none;
         top: 219px;
-        left: 230px;
+        left: 65%;
         line-height: 25px;
         color:white
 
@@ -417,6 +420,107 @@ nav .logo img {
     section .status-experience h5{
         color: white;
         margin: 35px 23px;
+    }
+
+    .interet {
+        /* border: 3px solid lawngreen; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+        padding: 20px 0px;
+    
+    }
+    .nom-interet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid hotpink; */
+    }
+
+    .nom-interet ul {
+        list-style: none;
+    }
+
+    .nom-interet-second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 3px solid navy; */
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .nom-interet-second ul {
+        list-style: none;
+        color: #147AD8;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .nom-interet-second ul li .sport {
+        margin-left: -15px;
+        /* margin-right: 34px; */
+        width: 100px;
+        
+    }
+    .nom-interet-second ul li label {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .nom-interet-second ul li .association {
+        margin-left: -15px;
+        /* margin-right: 34px; */
+        width: 180px;
+    }
+
+    .nom-interet-second ul li .association .details {
+        font-style: italic;
+        font-size: 9.5px;
+        margin-left: -15px;
+    }
+
+    .nom-interet-second ul li .sport .details {
+        font-style: italic;
+        font-size: 9.5px;
+        margin-left: -15px;
+    }
+
+    .nous-contacter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 3px solid lawngreen; */
+        box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.685);
+        border-radius: 10px;
+        padding: 20px 0px;
+        color: #147AD8;
+    }
+
+    .nous-contacter .adresse {
+        width: 55%;
+        margin: auto;
+        /* border: 3px solid cadetblue; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nous-contacter .adresse img {
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .nous-contacter .adresse .address-title {
+        margin-left: 15px;
+    }
+
+    .nous-contacter .adresse h3 {
+        font-style: italic;
+        font-size: 14px;
+        color: #1479d8a2;
+    }
+    .nous-contacter .mes-email a {
+        font-style: italic;
+        font-size: 14px;
+        color: #1479d8a2;
     }
 
 }
