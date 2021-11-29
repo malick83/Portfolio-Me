@@ -649,6 +649,14 @@
         background-color: #0757A1;
     }
 
+    .phone-or-desktop {
+        display: block;
+    }
+
+    .phone-or-desktop-whatsapp {
+        display: none;
+    }
+
 
     
 
@@ -1283,6 +1291,14 @@
         margin-top: 60px;
         font-size: 9px;
         background-color: #0757A1;
+    }
+
+    .phone-or-desktop {
+        display: none;
+    }
+
+    .phone-or-desktop-whatsapp {
+        display: block;
     }
 
 
